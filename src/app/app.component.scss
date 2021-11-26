@@ -1,0 +1,19 @@
+:host {
+  .image-carousel__container {
+    height: 250px;
+  }
+
+  .aftermovie__container {
+    margin-top: 250px;
+
+    .aftermovie__title {
+      text-align: center;
+    }
+
+    .aftermovie__video-container {
+      display: flex;
+
+      justify-content: center;
+    }
+  }
+}

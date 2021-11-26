@@ -10,7 +10,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { ScullyLibModule } from '@scullyio/ng-lib';
 import { AboutComponent } from './about/about.component';
 import { RouterModule } from '@angular/router';
-import { ImageBannerComponent } from './image-banner/image-banner.component';
+import { ImageCarouselComponent } from './image-carousel/image-carousel.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 export function apiConfigFactory(): Configuration {
     const params: ConfigurationParameters = {
@@ -23,7 +24,7 @@ export function apiConfigFactory(): Configuration {
     declarations: [
         AppComponent,
         AboutComponent,
-        ImageBannerComponent,
+        ImageCarouselComponent,
     ],
     imports: [
         BrowserModule,
@@ -32,7 +33,8 @@ export function apiConfigFactory(): Configuration {
         ProjectModule,
         AppRoutingModule,
         ScullyLibModule,
-        RouterModule
+        RouterModule,
+        BrowserAnimationsModule
     ],
     providers: [],
     exports: [],
