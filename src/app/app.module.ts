@@ -12,6 +12,7 @@ import { AboutComponent } from './about/about.component';
 import { RouterModule } from '@angular/router';
 import { ImageCarouselComponent } from './image-carousel/image-carousel.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MailchimpService } from './services/mailchimp.service';
 
 export function apiConfigFactory(): Configuration {
     const params: ConfigurationParameters = {
