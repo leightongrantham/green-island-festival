@@ -8,27 +8,24 @@ export class MailchimpService {
 
   constructor(private http: HttpClient) { }
 
-  public subscribeUser(): void {
+  public subscribeUser(name: string, email: string): void {
     // configuration details
-    const API_KEY = 'f9237c57ec34da785ae4XXXXXXXXXX-us19';
-    const AUDIENCE_ID = '46665XXXXX';
+    const API_KEY = '2c4ae0b704ef0c9d008be069002d945e-us20';
+    const AUDIENCE_ID = 'd06ee96348';
     const SEND_WELCOME = true;
 
     // subscriber details from form
-    const SUBSCRIBER_EMAIL = 'ankit.codechintan@gmail.com';
-    const FNAME = 'Ankit';
-    const LNAME = 'Maheshwari';
+    const SUBSCRIBER_EMAIL = 'leightongrantham2@gmail.com';
+    const NAME = 'Leighton Grantham';
 
-    const URL = 'https://us19.api.mailchimp.com/2.0/lists/subscribe.json?apikey='
+    const URL = 'https://outlook.us20.list-manage.com/subscribe/post?u='
         + API_KEY
         + '&id='
         + AUDIENCE_ID
         + '&email[email]='
-        + SUBSCRIBER_EMAIL
-        + '&merge_vars[FNAME]='
-        + FNAME
-        + '&merge_vars[LNAME]='
-        + LNAME
+        + email
+        + '&name=[name]='
+        + name
         + '&double_optin=false&send_welcome='
         + SEND_WELCOME;
 

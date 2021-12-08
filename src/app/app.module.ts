@@ -13,6 +13,8 @@ import { RouterModule } from '@angular/router';
 import { ImageCarouselComponent } from './image-carousel/image-carousel.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MailchimpService } from './services/mailchimp.service';
+import { SubscribeFormComponent } from './subscribe-form/subscribe-form.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 export function apiConfigFactory(): Configuration {
     const params: ConfigurationParameters = {
@@ -26,6 +28,7 @@ export function apiConfigFactory(): Configuration {
         AppComponent,
         AboutComponent,
         ImageCarouselComponent,
+        SubscribeFormComponent,
     ],
     imports: [
         BrowserModule,
@@ -35,7 +38,8 @@ export function apiConfigFactory(): Configuration {
         AppRoutingModule,
         ScullyLibModule,
         RouterModule,
-        BrowserAnimationsModule
+        BrowserAnimationsModule,
+        ReactiveFormsModule
     ],
     providers: [],
     exports: [],
