@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="470b3d2e-9207-42ff-8989-90bd3b5af9cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../next.js/examples/cms-contentful/components/banner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-in-5-minutes/.contentful.sample.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-in-5-minutes/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-in-5-minutes/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/green-island-festival3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/green-island-festival3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/image-carousel/image-carousel.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/image-carousel/image-carousel.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/mailchimp.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/mailchimp.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../next.js/examples/cms-contentful/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../next.js/examples/cms-contentful/components/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../next.js/examples/cms-contentful/components/intro.js" beforeDir="false" afterPath="$PROJECT_DIR$/../next.js/examples/cms-contentful/components/intro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../next.js/examples/cms-contentful/components/more-stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/../next.js/examples/cms-contentful/components/more-stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../next.js/examples/cms-contentful/components/post-body.js" beforeDir="false" afterPath="$PROJECT_DIR$/../next.js/examples/cms-contentful/components/post-body.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../next.js/examples/cms-contentful/components/post-preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/../next.js/examples/cms-contentful/components/post-preview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../next.js/examples/cms-contentful/lib/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/../next.js/examples/cms-contentful/lib/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../next.js/examples/cms-contentful/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../next.js/examples/cms-contentful/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../next.js/examples/cms-contentful/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../next.js/examples/cms-contentful/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +27,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../next.js" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -27,6 +38,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="21KOkJJ5IFw98LKCNxUafbF0jL8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../next.js/examples/cms-contentful" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/node_modules/protractor" />
@@ -45,6 +57,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../next.js/examples/cms-contentful" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/app/services" />
       <recent name="$PROJECT_DIR$/src/assets/videos" />
@@ -95,7 +110,12 @@
       <updated>1637686453332</updated>
       <workItem from="1637686455468" duration="1263000" />
       <workItem from="1637768752594" duration="3647000" />
-      <workItem from="1638961402282" duration="3830000" />
+      <workItem from="1638961402282" duration="5492000" />
+      <workItem from="1639051529729" duration="642000" />
+      <workItem from="1639062068801" duration="5548000" />
+      <workItem from="1639130679450" duration="3146000" />
+      <workItem from="1639573598499" duration="16141000" />
+      <workItem from="1640878389657" duration="940000" />
     </task>
     <servers />
   </component>

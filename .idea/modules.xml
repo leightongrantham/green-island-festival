@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../blog-in-5-minutes/.idea/blog-in-5-minutes.iml" filepath="$PROJECT_DIR$/../blog-in-5-minutes/.idea/blog-in-5-minutes.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/green-island-festival3.iml" filepath="$PROJECT_DIR$/.idea/green-island-festival3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../next.js/.idea/next.js.iml" filepath="$PROJECT_DIR$/../next.js/.idea/next.js.iml" />
     </modules>
   </component>
 </project>

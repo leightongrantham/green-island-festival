@@ -16,4 +16,14 @@
       justify-content: center;
     }
   }
+
+  .social-links__container {
+    display: flex;
+    justify-content: center;
+
+    .social-links a {
+        margin: 5px;
+        text-decoration: none;
+    }
+  }
 }

@@ -31,23 +31,24 @@ export class ImageCarouselComponent implements OnInit {
   ngOnInit(): void {
     this.preloadImages();
     this.changeImage();
+
   }
 
   public onPreviousClick(): void {
     const previous = this.currentSlide - 1;
     this.currentSlide = previous < 0 ? this.slides.length - 1 : previous;
-    console.log('previous clicked, new current slide is: ', this.currentSlide);
   }
 
   public onNextClick(): void {
-   this.currentSlide = this.currentSlide + 1;
+   const next = this.currentSlide + 1;
 
    console.log(this.slides);
-    // this.currentSlide = next === this.slides.length ? 0 : next;
+
+   this.currentSlide = next === this.slides.length ? 0 : next;
   }
 
   public changeImage(): void {
-    // setInterval(this.onNextClick, 1000);
+    // setInterval(this.ngOnInit, 5000);
   }
 
   public preloadImages(): void {

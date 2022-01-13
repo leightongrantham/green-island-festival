@@ -32,15 +32,15 @@ export class AppComponent implements OnInit {
         },
         {
             src:
-                'src/assets/images/SLN01141-210.jpg'
+                'assets/images/SLN01141-210.jpg'
         },
         {
             src:
-                'src/assets/images/SLN01174-23.jpg'
+                'assets/images/SLN01174-23.jpg'
         },
         {
             src:
-                'src/assets/images/SLN01974.JPG'
+                'assets/images/SLN01974.JPG'
         }
     ];
 
