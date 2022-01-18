@@ -1,11 +1,9 @@
 :host {
   .image-carousel__container {
-    height: 250px;
+    min-height: calc(90vh - 75px);
   }
 
   .aftermovie__container {
-    margin-top: 250px;
-
     .aftermovie__title {
       text-align: center;
     }
@@ -17,13 +15,17 @@
     }
   }
 
-  .social-links__container {
-    display: flex;
-    justify-content: center;
+  footer {
+    position: sticky;
 
-    .social-links a {
+    .social-links__container {
+      display: flex;
+      justify-content: center;
+
+      .social-links a {
         margin: 5px;
         text-decoration: none;
+      }
     }
   }
 }
