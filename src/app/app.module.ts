@@ -12,7 +12,6 @@ import { AboutComponent } from './about/about.component';
 import { RouterModule } from '@angular/router';
 import { ImageCarouselComponent } from './image-carousel/image-carousel.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MailchimpService } from './services/mailchimp.service';
 import { SubscribeFormComponent } from './subscribe-form/subscribe-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
 

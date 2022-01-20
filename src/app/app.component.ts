@@ -3,6 +3,7 @@ import {Location} from '@angular/common';
 import { ImageCarouselComponent } from './image-carousel/image-carousel.component';
 import { AnimationType } from './image-carousel/animations';
 import { Slide } from './interfaces/carousel.interface';
+import { FlotiqService } from './services/flotiq.service';
 
 @Component({
     selector: 'app-root',
@@ -48,13 +49,20 @@ export class AppComponent implements OnInit {
         this.toggleNav = !this.toggleNav;
     }
 
-    constructor(private location: Location) {
+    constructor(private location: Location, private flotiq: FlotiqService) {
     }
 
     ngOnInit(): void {
         if (!this.location.path()) {
             this.isHome = true;
         }
+
+        this.flotiq.getUser().subscribe(
+            (user) => {
+                const { data } = user;
+                // do something with data
+            }
+        );
     }
 
     setAnimationType(type): void {
@@ -62,5 +70,9 @@ export class AppComponent implements OnInit {
         setTimeout(() => {
             this.carousel.onNextClick();
         });
+    }
+
+    public scrollIntoView(element: HTMLElement): void {
+        element.scrollIntoView({ behavior: 'smooth' });
     }
 }

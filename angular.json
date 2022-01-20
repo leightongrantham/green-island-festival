@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "scully-projects-starter": {
+    "green-island-festival": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -124,5 +124,5 @@
       }
     }
   },
-  "defaultProject": "scully-projects-starter"
+  "defaultProject": "green-island-festival"
 }

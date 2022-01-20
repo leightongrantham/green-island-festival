@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MailchimpService } from '../services/mailchimp.service';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
-import { ContentfulService } from '../services/contentful.service';
+import { FlotiqService } from '../services/flotiq.service';
 
 @Component({
     selector: 'app-subscribe-form',
@@ -11,7 +11,7 @@ import { ContentfulService } from '../services/contentful.service';
 export class SubscribeFormComponent implements OnInit {
     formData: FormGroup;
 
-    constructor(private api: ContentfulService,
+    constructor(private api: FlotiqService,
                 private builder: FormBuilder) {
     }
 
