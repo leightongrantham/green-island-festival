@@ -1,9 +1,14 @@
+
+
 :host {
   .image-carousel__container {
+    display: flex;
+    align-items: center;
     min-height: calc(90vh - 75px);
   }
 
   .aftermovie__container {
+    margin-top: 98px;
     .aftermovie__title {
       text-align: center;
     }

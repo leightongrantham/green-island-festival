@@ -1,7 +1,7 @@
 import { CreateClientParams } from 'contentful';
 
 export const ContentfulConfig: CreateClientParams = {
-  space: 'wl1z0pal05vy',
+  space: 'sli03uzqzo4c',
   accessToken:
-    '0e3ec801b5af550c8a1257e8623b1c77ac9b3d8fcfc1b2b7494e3cb77878f92a',
+    'CFPAT-fztxcYWgO1KNd1LQULgAE81smUqF2mxdoIvgCrdOHtM\n',
 };

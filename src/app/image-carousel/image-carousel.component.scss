@@ -22,7 +22,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: blur(6px);
+  //filter: blur(6px);
   // zoom effect on hover
   //transition: transform 150ms cubic-bezier(0.25, 0.46, 0.45, 0.84);
 }
@@ -48,7 +48,7 @@
   font-weight: bold;
   font-size: 3em;
   user-select: none;
-  height: 100%;
+  height: 10%;
   opacity: 80%;
   //// opacity effect on hover
   //transition: opacity 150ms cubic-bezier(0.25, 0.46, 0.45, 0.84);
@@ -61,9 +61,11 @@
   /* Position the buttons */
   &.next {
     right: 0;
+    bottom: 50%
   }
   &.prev {
     left: 0;
+    bottom: 50%;
   }
 }
 

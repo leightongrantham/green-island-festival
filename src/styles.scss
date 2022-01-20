@@ -858,7 +858,7 @@ th {
 
 html {
   overflow-x: hidden;
-  overflow-y: hidden;
+  //overflow-y: hidden;
   font-size: 62.5%;
 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -1358,7 +1358,7 @@ fieldset {
 }
 
 label {
-  color: $primary;
+  //color: $primary;
   display: block;
   font-size: 0.9em;
   font-weight: $fontBold;
@@ -1861,16 +1861,14 @@ body {
 /* Layout
 /* ---------------------------------------------------------- */
 
-.site-wrapper {
-  padding: 3vw;
-  min-height: 100vh;
-}
-
-@media (max-width: 850px) {
-  .site-wrapper {
-    padding: 6vw;
-  }
-}
+//.site-wrapper {
+//}
+//
+//@media (max-width: 850px) {
+//  .site-wrapper {
+//    padding: 6vw;
+//  }
+//}
 
 .page-head {
   display: flex;
@@ -2024,9 +2022,9 @@ body {
 
 .site-head-logo img {
   display: block;
-  margin-top: 30px;
+  margin-top: 250px;
   width: auto;
-  height: 5rem;
+  height: 15rem;
 }
 
 .site-head-right {
