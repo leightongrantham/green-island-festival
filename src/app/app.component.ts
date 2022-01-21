@@ -4,6 +4,7 @@ import { ImageCarouselComponent } from './image-carousel/image-carousel.componen
 import { AnimationType } from './image-carousel/animations';
 import { Slide } from './interfaces/carousel.interface';
 import { FlotiqService } from './services/flotiq.service';
+import { faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
     selector: 'app-root',
@@ -18,6 +19,8 @@ export class AppComponent implements OnInit {
     toggleNav = false;
     date = (new Date()).getFullYear();
     animationType = AnimationType.Fade;
+    faInstagram = faInstagram;
+    faFacebook = faFacebook;
 
     animationTypes = [
         {
@@ -72,7 +75,9 @@ export class AppComponent implements OnInit {
         });
     }
 
-    public scrollIntoView(element: HTMLElement): void {
+    scrollIntoView(id: string): void {
+        let element = document.getElementById(id);
+
         element.scrollIntoView({ behavior: 'smooth' });
     }
 }

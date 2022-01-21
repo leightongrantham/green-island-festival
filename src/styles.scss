@@ -544,6 +544,7 @@ $base: #131313;
 $baseLight: #ababab;
 $borderColor: #ddd;
 $bgColor: #f8f8f8;
+$baseInvert: #ffffff;
 
 /* Fonts */
 $fontSansSerif: 'Muli', sans-serif;
@@ -1939,7 +1940,8 @@ body {
 }
 
 .site-foot a {
-  color: $base;
+  font-size: 4rem;
+  color: $baseInvert;
 }
 
 

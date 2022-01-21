@@ -7,6 +7,12 @@
     min-height: calc(90vh - 75px);
   }
 
+  button {
+    position: absolute;
+    z-index: 1000;
+    background: black;
+  }
+
   .aftermovie__container {
     margin-top: 98px;
     .aftermovie__title {
@@ -28,7 +34,7 @@
       justify-content: center;
 
       .social-links a {
-        margin: 5px;
+        margin: 15px;
         text-decoration: none;
       }
     }

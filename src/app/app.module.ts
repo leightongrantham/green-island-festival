@@ -14,6 +14,7 @@ import { ImageCarouselComponent } from './image-carousel/image-carousel.componen
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SubscribeFormComponent } from './subscribe-form/subscribe-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 export function apiConfigFactory(): Configuration {
     const params: ConfigurationParameters = {
@@ -38,10 +39,14 @@ export function apiConfigFactory(): Configuration {
         ScullyLibModule,
         RouterModule,
         BrowserAnimationsModule,
-        ReactiveFormsModule
+        ReactiveFormsModule,
+        FontAwesomeModule
     ],
     providers: [],
-    exports: [],
+    exports: [
+        AppComponent,
+        ImageCarouselComponent
+    ],
     bootstrap: [AppComponent]
 })
 export class AppModule {
