@@ -36,11 +36,20 @@
 
   form {
     margin: 0 !important;
+
     .btn {
+      color: black;
       margin: 0 auto 0;
       display: block;
       position: relative;
       top: 25px;
+      &:hover{
+        opacity: 0.8;
+      }
+    }
+
+    input {
+      color: black;
     }
   }
 

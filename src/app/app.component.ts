@@ -5,6 +5,7 @@ import { AnimationType } from './image-carousel/animations';
 import { Slide } from './interfaces/carousel.interface';
 import { FlotiqService } from './services/flotiq.service';
 import { faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
     selector: 'app-root',
@@ -21,6 +22,7 @@ export class AppComponent implements OnInit {
     animationType = AnimationType.Fade;
     faInstagram = faInstagram;
     faFacebook = faFacebook;
+    faArrow = faArrowDown;
 
     animationTypes = [
         {
@@ -68,7 +70,7 @@ export class AppComponent implements OnInit {
         );
     }
 
-    setAnimationType(type): void {
+    setAnimationType(type: any): void {
         this.animationType = type.value;
         setTimeout(() => {
             this.carousel.onNextClick();
@@ -76,7 +78,7 @@ export class AppComponent implements OnInit {
     }
 
     scrollIntoView(id: string): void {
-        let element = document.getElementById(id);
+        const element = document.getElementById(id);
 
         element.scrollIntoView({ behavior: 'smooth' });
     }

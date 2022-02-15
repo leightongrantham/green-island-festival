@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="470b3d2e-9207-42ff-8989-90bd3b5af9cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../next.js/examples/cms-contentful/components/banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-in-5-minutes/.contentful.sample.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-in-5-minutes/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-in-5-minutes/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/green-island-festival3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/green-island-festival3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../next.js/examples/cms-contentful/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../next.js/examples/cms-contentful/components/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../next.js/examples/cms-contentful/components/intro.js" beforeDir="false" afterPath="$PROJECT_DIR$/../next.js/examples/cms-contentful/components/intro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../next.js/examples/cms-contentful/components/more-stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/../next.js/examples/cms-contentful/components/more-stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../next.js/examples/cms-contentful/components/post-body.js" beforeDir="false" afterPath="$PROJECT_DIR$/../next.js/examples/cms-contentful/components/post-body.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../next.js/examples/cms-contentful/components/post-preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/../next.js/examples/cms-contentful/components/post-preview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../next.js/examples/cms-contentful/lib/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/../next.js/examples/cms-contentful/lib/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../next.js/examples/cms-contentful/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../next.js/examples/cms-contentful/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../next.js/examples/cms-contentful/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../next.js/examples/cms-contentful/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/contentful.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/contentful.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/mailchimp.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/mailchimp.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/subscribe-form/subscribe-form.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/subscribe-form/subscribe-form.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/subscribe-form/subscribe-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/subscribe-form/subscribe-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +26,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../next.js" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -47,17 +46,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../next.js/examples/cms-contentful" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/node_modules/protractor" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+    <property name="settings.editor.selected.configurable" value="swagger" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app" />
       <recent name="$PROJECT_DIR$/../next.js/examples/cms-contentful" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -116,6 +116,10 @@
       <workItem from="1639130679450" duration="3146000" />
       <workItem from="1639573598499" duration="16141000" />
       <workItem from="1640878389657" duration="940000" />
+      <workItem from="1643195846126" duration="2771000" />
+      <workItem from="1643711592272" duration="3807000" />
+      <workItem from="1644500330658" duration="5143000" />
+      <workItem from="1644568794808" duration="643000" />
     </task>
     <servers />
   </component>

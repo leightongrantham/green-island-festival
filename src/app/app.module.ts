@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { environment } from '../environments/environment';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { ApiModule, Configuration, ConfigurationParameters } from 'flotiq';
 import { ProjectModule } from './project/project.module';
 import { AppRoutingModule } from './app-routing.module';
@@ -33,16 +33,18 @@ export function apiConfigFactory(): Configuration {
     imports: [
         BrowserModule,
         ApiModule.forRoot(apiConfigFactory),
-        HttpClientModule,
         ProjectModule,
         AppRoutingModule,
         ScullyLibModule,
         RouterModule,
         BrowserAnimationsModule,
         ReactiveFormsModule,
-        FontAwesomeModule
+        FontAwesomeModule,
+        HttpClientModule
     ],
-    providers: [],
+    providers: [
+        HttpClient
+    ],
     exports: [
         AppComponent,
         ImageCarouselComponent

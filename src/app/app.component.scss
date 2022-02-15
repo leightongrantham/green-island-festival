@@ -1,4 +1,4 @@
-
+@import "~animate.css/animate.min.css";
 
 :host {
   .image-carousel__container {
@@ -14,7 +14,6 @@
   }
 
   .aftermovie__container {
-    margin-top: 98px;
     .aftermovie__title {
       text-align: center;
     }
@@ -28,14 +27,31 @@
 
   footer {
     position: sticky;
+    height: 140px;
 
     .social-links__container {
-      display: flex;
+      display: inline-block;
       justify-content: center;
 
       .social-links a {
-        margin: 15px;
+        margin: 25px 15px 50px 15px;
         text-decoration: none;
+        opacity: 0.7;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+
+      .scroll-arrow {
+        color: white;
+        font-size: 4rem;
+        opacity: 0.7;
+
+        &:hover {
+          opacity: 1;
+          cursor: pointer;
+        }
       }
     }
   }

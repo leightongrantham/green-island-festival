@@ -34,18 +34,16 @@
     </header>
     <div class="image-carousel__container">
         <app-image-carousel [slides]="slides" [animationType]="animationType"></app-image-carousel>
-
-<!--        <button (click)=scrollIntoView("video")> Scroll Into View </button>-->
     </div>
     <footer class="site-foot">
-<!--        &copy; {{date}} <a href="/">{{title}}</a> &mdash;-->
-<!--        Built by-->
-<!--        <a-->
-<!--                href="https://www.leightongrantham.com"-->
-<!--                target="_blank"-->
-<!--                rel="noopener noreferrer">-->
-<!--            Leighton Grantham-->
-<!--        </a>-->
+        <!--        &copy; {{date}} <a href="/">{{title}}</a> &mdash;-->
+        <!--        Built by-->
+        <!--        <a-->
+        <!--                href="https://www.leightongrantham.com"-->
+        <!--                target="_blank"-->
+        <!--                rel="noopener noreferrer">-->
+        <!--            Leighton Grantham-->
+        <!--        </a>-->
 
         <div class="social-links__container">
             <div class="social-links">
@@ -63,7 +61,14 @@
                         rel="noopener noreferrer">
                     <fa-icon [icon]="faInstagram"></fa-icon>
                 </a>
+
             </div>
+
+                    <span class="scroll-arrow animated pulse forever" (click)="scrollIntoView('aftermovie')"
+                          title="Arrow"
+                          rel="noopener noreferrer">
+                    <fa-icon [icon]="faArrow"></fa-icon>
+                </span>
         </div>
     </footer>
     <div id="aftermovie" class="aftermovie__container">
@@ -75,14 +80,13 @@
         </div>
     </div>
 
-
     <!--    <main id="site-main" class="site-main">-->
-<!--        <div id="swup" class="transition-fade">-->
-<!--            <header class="page-head" *ngIf="isHome">-->
-<!--                <h2 class="page-head-title">-->
-<!--                </h2>-->
-<!--            </header>-->
-<!--            <router-outlet></router-outlet>-->
-<!--        </div>-->
-<!--    </main>-->
+    <!--        <div id="swup" class="transition-fade">-->
+    <!--            <header class="page-head" *ngIf="isHome">-->
+    <!--                <h2 class="page-head-title">-->
+    <!--                </h2>-->
+    <!--            </header>-->
+    <!--            <router-outlet></router-outlet>-->
+    <!--        </div>-->
+    <!--    </main>-->
 </div>

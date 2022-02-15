@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { MailchimpService } from '../services/mailchimp.service';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { FlotiqService } from '../services/flotiq.service';
+import { MailchimpService } from '../services/mailchimp.service';
 
 @Component({
     selector: 'app-subscribe-form',
@@ -22,7 +22,8 @@ export class SubscribeFormComponent implements OnInit {
         });
     }
 
-    public async onSubmit(formData) {
+    public async onSubmit(formData): Promise<void> {
         await this.api.subscribeUser(formData.name, formData.email);
+        this.formData.reset();
     }
 }
