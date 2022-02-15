@@ -12,7 +12,7 @@ export class FlotiqService {
     private httpHeaders = new HttpHeaders({
         'Content-Type': 'application/json',
         'X-AUTH-TOKEN': this.token
-    })
+    });
 
     constructor(private httpClient: HttpClient) {
     }
@@ -20,14 +20,14 @@ export class FlotiqService {
     public subscribeUser(name: string, email: string): Promise<void> {
         const fields = {
             id: Date.now() + '_' + Math.random().toString().substring(2),
-            name: name,
-            email: email
-        }
+            name,
+            email
+        };
 
         return this.httpClient.post(`https://api.flotiq.com/api/v1/content/user`,
             fields, { headers: this.httpHeaders })
             .toPromise().then(response => {
-                console.log(response)
+                console.log(response);
         });
     }
 
@@ -35,6 +35,6 @@ export class FlotiqService {
     public getUser(): Observable<any> {
         return this.httpClient.get('https://api.flotiq.com/api/v1/content/user', {
             headers: this.httpHeaders
-        })
+        });
     }
 }
