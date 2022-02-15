@@ -3,14 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { environment } from '../environments/environment';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { ApiModule, Configuration, ConfigurationParameters } from 'flotiq';
 import { ProjectModule } from './project/project.module';
 import { AppRoutingModule } from './app-routing.module';
 import { ScullyLibModule } from '@scullyio/ng-lib';
 import { AboutComponent } from './about/about.component';
 import { RouterModule } from '@angular/router';
-import { ImageBannerComponent } from './image-banner/image-banner.component';
+import { ImageCarouselComponent } from './image-carousel/image-carousel.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SubscribeFormComponent } from './subscribe-form/subscribe-form.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 export function apiConfigFactory(): Configuration {
     const params: ConfigurationParameters = {
@@ -23,19 +27,28 @@ export function apiConfigFactory(): Configuration {
     declarations: [
         AppComponent,
         AboutComponent,
-        ImageBannerComponent,
+        ImageCarouselComponent,
+        SubscribeFormComponent,
     ],
     imports: [
         BrowserModule,
         ApiModule.forRoot(apiConfigFactory),
-        HttpClientModule,
         ProjectModule,
         AppRoutingModule,
         ScullyLibModule,
-        RouterModule
+        RouterModule,
+        BrowserAnimationsModule,
+        ReactiveFormsModule,
+        FontAwesomeModule,
+        HttpClientModule
     ],
-    providers: [],
-    exports: [],
+    providers: [
+        HttpClient
+    ],
+    exports: [
+        AppComponent,
+        ImageCarouselComponent
+    ],
     bootstrap: [AppComponent]
 })
 export class AppModule {

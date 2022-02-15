@@ -1,0 +1,68 @@
+:host {
+  display: flex;
+  justify-content: center;
+  color: white;
+
+  .container {
+    z-index: 100;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 0 15px 0 #000;
+    border-radius: 10px;
+    justify-content: center;
+    margin-top: 15%;
+    align-items: center;
+    display: flex;
+    background: rgba(56, 116, 28, 0.9);
+  }
+
+  h2 {
+    position: relative;
+    bottom: 30px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  label {
+    position: relative;
+    top: 5px;
+  }
+
+  small {
+    position: relative;
+    top: 10px;
+  }
+
+  form {
+    margin: 0 !important;
+
+    .btn {
+      color: black;
+      margin: 0 auto 0;
+      display: block;
+      position: relative;
+      top: 25px;
+      &:hover{
+        opacity: 0.8;
+      }
+    }
+
+    input {
+      color: black;
+    }
+  }
+
+  .form-control {
+    &:focus {
+      border-color: inherit;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+  }
+
+
+  .btn {
+    margin: 15px 0;
+  }
+}

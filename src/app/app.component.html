@@ -27,50 +27,66 @@
             </nav>
             <div class="site-head-center">
                 <a class="site-head-logo" href="/">
-                    <img src="assets/images/GIF%20G.png" alt="Green Island Festival">
+                    <img src="assets/images/GIF%20W.png" alt="Green Island Festival">
                 </a>
-            </div>
-            <div class="image-banner">
-                <app-image-banner></app-image-banner>
-            </div>
-            <div class="site-head-right">
-                <div class="social-links">
-                    <a
-                            href="https://www.facebook.com/greenislandfestivalUK/?fref=tag"
-                            title="Facebook"
-                            target="_blank"
-                            rel="noopener noreferrer">
-                        Facebook
-                    </a>
-                    <a
-                            href="https://www.instagram.com/greenisland_festival"
-                            title="Instagram"
-                            target="_blank"
-                            rel="noopener noreferrer">
-                        Instagram
-                    </a>
-                </div>
             </div>
         </div>
     </header>
-    <main id="site-main" class="site-main">
-        <div id="swup" class="transition-fade">
-            <header class="page-head" *ngIf="isHome">
-                <h2 class="page-head-title">
-                    A bold, minimal theme for your projects, focused on clean typography & beautiful imagery
-                </h2>
-            </header>
-            <router-outlet></router-outlet>
-        </div>
-    </main>
+    <div class="image-carousel__container">
+        <app-image-carousel [slides]="slides" [animationType]="animationType"></app-image-carousel>
+    </div>
     <footer class="site-foot">
-        &copy; {{date}} <a href="/">{{title}}</a> &mdash;
-        Built by
-        <a
-                href="https://www.leightongrantham.com"
-                target="_blank"
-                rel="noopener noreferrer">
-            Leighton Grantham
-        </a>
+        <!--        &copy; {{date}} <a href="/">{{title}}</a> &mdash;-->
+        <!--        Built by-->
+        <!--        <a-->
+        <!--                href="https://www.leightongrantham.com"-->
+        <!--                target="_blank"-->
+        <!--                rel="noopener noreferrer">-->
+        <!--            Leighton Grantham-->
+        <!--        </a>-->
+
+        <div class="social-links__container">
+            <div class="social-links">
+                <a
+                        href="https://www.facebook.com/greenislandfestivalUK/?fref=tag"
+                        title="Facebook"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                    <fa-icon [icon]="faFacebook"></fa-icon>
+                </a>
+                <a
+                        href="https://www.instagram.com/greenisland_festival"
+                        title="Instagram"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                    <fa-icon [icon]="faInstagram"></fa-icon>
+                </a>
+
+            </div>
+
+                    <span class="scroll-arrow animated pulse forever" (click)="scrollIntoView('aftermovie')"
+                          title="Arrow"
+                          rel="noopener noreferrer">
+                    <fa-icon [icon]="faArrow"></fa-icon>
+                </span>
+        </div>
     </footer>
+    <div id="aftermovie" class="aftermovie__container">
+        <div class="aftermovie__video-container">
+            <video width="100%" height="75%" loop="true" autoplay="true">
+                <source src="/assets/videos/pexels-zlatin-georgiev-5607650.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+            </video>
+        </div>
+    </div>
+
+    <!--    <main id="site-main" class="site-main">-->
+    <!--        <div id="swup" class="transition-fade">-->
+    <!--            <header class="page-head" *ngIf="isHome">-->
+    <!--                <h2 class="page-head-title">-->
+    <!--                </h2>-->
+    <!--            </header>-->
+    <!--            <router-outlet></router-outlet>-->
+    <!--        </div>-->
+    <!--    </main>-->
 </div>

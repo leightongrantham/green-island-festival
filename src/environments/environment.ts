@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  flotiqApiKey: 'YOUR_FLOTIQ_API_KEY',
+  flotiqApiKey: '8c7e7b236a84b550a1e21abcec4634a1',
 };
 
 /*
