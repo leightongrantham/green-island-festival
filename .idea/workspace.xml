@@ -3,19 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="470b3d2e-9207-42ff-8989-90bd3b5af9cf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/contentful.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/contentful.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/mailchimp.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/mailchimp.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/subscribe-form/subscribe-form.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/subscribe-form/subscribe-form.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/subscribe-form/subscribe-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/subscribe-form/subscribe-form.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +107,7 @@
       <workItem from="1643195846126" duration="2771000" />
       <workItem from="1643711592272" duration="3807000" />
       <workItem from="1644500330658" duration="5143000" />
-      <workItem from="1644568794808" duration="643000" />
+      <workItem from="1644568794808" duration="861000" />
     </task>
     <servers />
   </component>
