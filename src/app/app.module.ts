@@ -16,6 +16,7 @@ import { SubscribeFormComponent } from './subscribe-form/subscribe-form.componen
 import { ReactiveFormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
+
 export function apiConfigFactory(): Configuration {
     const params: ConfigurationParameters = {
         apiKeys: {'X-AUTH-TOKEN': environment.flotiqApiKey}

@@ -2,7 +2,6 @@
   .image-carousel__container {
     display: flex;
     align-items: center;
-    min-height: calc(90vh - 75px);
   }
 
   button {
@@ -24,25 +23,27 @@
   }
 
   footer {
-    position: sticky;
+    display: flex;
     height: 140px;
+    justify-content: center;
+    align-items: center;
 
     .social-links__container {
       display: inline-block;
       justify-content: center;
 
       .social-links a {
-        margin: 25px 15px 50px 15px;
+        margin: 0 15px 0 15px;
         text-decoration: none;
-        opacity: 0.7;
+        //opacity: 0.7;
 
         &:hover {
-          opacity: 1;
+          opacity: 0.7;
         }
       }
 
       .scroll-arrow {
-        color: white;
+        color: black;
         font-size: 4rem;
         opacity: 0.7;
 

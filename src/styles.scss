@@ -1673,6 +1673,7 @@ button.primary:hover,
 }
 
 @media (max-width: $xsmall) {
+
   .actions:not(.fixed) {
     flex-direction: column;
     margin-left: 0;
@@ -1935,15 +1936,15 @@ body {
 }
 
 .site-foot {
-  margin: 1vw 0 1vw;
-  text-align: center;
-  color: $baseLight;
-  font-size: 1.4rem;
+  //margin: 1vw 0 1vw;
+  //text-align: center;
+  //color: $baseLight;
+  //font-size: 1.4rem;
 }
 
 .site-foot a {
   font-size: 4rem;
-  color: $baseInvert;
+  color: black;
 }
 
 
@@ -1953,7 +1954,7 @@ body {
 .site-head {
   position: relative;
   z-index: 300;
-  margin-top: -10px;
+  //margin-top: -10px;
   font-size: 1.35rem;
 }
 
@@ -2002,7 +2003,7 @@ body {
 }
 
 .site-head-center {
-  position: absolute;
+  //position: absolute;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -2018,6 +2019,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
+  z-index: 10;
 }
 
 .site-head-logo:hover {
@@ -2026,7 +2028,7 @@ body {
 
 .site-head-logo img {
   display: block;
-  margin-top: 250px;
+  margin-top: 25%;
   width: auto;
   height: 15rem;
 }
@@ -2097,7 +2099,7 @@ body {
   .site-head-container {
     flex-direction: column;
     justify-content: flex-start;
-    height: 40px;
+    //height: 40px;
     background: rgba(255, 255, 255, 0);
     z-index: -1;
     transition: all 0.4s ease-out;
@@ -2153,20 +2155,20 @@ body {
     margin-top: 3vw;
   }
   .social-links {
-    flex-direction: column;
-    align-items: flex-start;
+    //flex-direction: column;
+    //align-items: flex-start;
   }
 
   .site-head-open {
-    background: rgba(255, 255, 255, 1);
-    transition: background 0.5s ease-out;
-    transition-delay: 0.25s;
-    overflow: hidden;
-    height: 100vh;
+    //background: rgba(255, 255, 255, 1);
+    //transition: background 0.5s ease-out;
+    //transition-delay: 0.25s;
+    //overflow: hidden;
+    //height: 100vh;
   }
 
   .site-head-open .site-head-container {
-    height: 100vh;
+    //height: 100vh;
     transition: height 0.2s ease-in;
   }
 
@@ -2190,14 +2192,14 @@ body {
   .site-head-open .site-head-right a {
     opacity: 0.5;
   }
-  .site-head-open .site-foot {
-    display: block;
-    position: fixed;
-    z-index: 9999;
-    bottom: 0;
-    transition: transform 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-    transform: translateY(-4vw);
-  }
+  //.site-head-open .site-foot {
+  //  display: block;
+  //  position: fixed;
+  //  z-index: 9999;
+  //  bottom: 0;
+  //  transition: transform 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+  //  transform: translateY(-4vw);
+  //}
 
 }
 
