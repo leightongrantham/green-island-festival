@@ -1,20 +1,20 @@
 <div class="site-wrapper site-head-open">
     <header class="site-head">
         <div class="site-head-container">
-<!--            <a-->
-<!--                    class="nav-burger"-->
-<!--                    href="#"-->
-<!--                    (click)="setToggleNav()">-->
-<!--                <div-->
-<!--                        class="hamburger hamburger&#45;&#45;collapse"-->
-<!--                        aria-label="Menu"-->
-<!--                        role="button"-->
-<!--                        aria-controls="navigation">-->
-<!--                    <div class="hamburger-box">-->
-<!--                        <div class="hamburger-inner"></div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </a>-->
+            <!--            <a-->
+            <!--                    class="nav-burger"-->
+            <!--                    href="#"-->
+            <!--                    (click)="setToggleNav()">-->
+            <!--                <div-->
+            <!--                        class="hamburger hamburger&#45;&#45;collapse"-->
+            <!--                        aria-label="Menu"-->
+            <!--                        role="button"-->
+            <!--                        aria-controls="navigation">-->
+            <!--                    <div class="hamburger-box">-->
+            <!--                        <div class="hamburger-inner"></div>-->
+            <!--                    </div>-->
+            <!--                </div>-->
+            <!--            </a>-->
             <nav id="swup" class="site-head-left">
                 <ul class="nav" role="menu">
                     <!--          <li class="nav-home nav-current" role="menuitem">-->
@@ -37,6 +37,12 @@
 
         <app-subscribe-form></app-subscribe-form>
 
+        <span class="scroll-arrow animate__animated animate__bounce animate__slower 4s animate__infinite infinite" (click)="scrollIntoView('aftermovie')"
+              title="Arrow"
+              rel="noopener noreferrer">
+            <fa-icon [icon]="faArrow"></fa-icon>
+        </span>
+
 
     </header>
     <footer class="site-foot">
@@ -58,12 +64,6 @@
                 </a>
 
             </div>
-
-<!--                    <span class="scroll-arrow animated pulse forever" (click)="scrollIntoView('aftermovie')"-->
-<!--                          title="Arrow"-->
-<!--                          rel="noopener noreferrer">-->
-<!--                    <fa-icon [icon]="faArrow"></fa-icon>-->
-<!--                </span>-->
         </div>
     </footer>
 
@@ -75,14 +75,4 @@
             </video>
         </div>
     </div>
-
-    <!--    <main id="site-main" class="site-main">-->
-    <!--        <div id="swup" class="transition-fade">-->
-    <!--            <header class="page-head" *ngIf="isHome">-->
-    <!--                <h2 class="page-head-title">-->
-    <!--                </h2>-->
-    <!--            </header>-->
-    <!--            <router-outlet></router-outlet>-->
-    <!--        </div>-->
-    <!--    </main>-->
 </div>
