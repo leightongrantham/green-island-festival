@@ -22,7 +22,7 @@
     <div *ngIf="!formSubmitted" class="form-group">
         <div class="content">
             <header>
-                <h1>Subscribe Us</h1>
+                <h1>Subscribe</h1>
             </header>
             <p>
                 Sign up for more news.
@@ -30,7 +30,7 @@
             <footer>
                 <input id="email" type="email" class="form-control" name="email" aria-describedby="emailHelp"
                        placeholder="Please enter your email" formControlName="email">
-                <button type="submit" [disabled]="!formData.valid">Let's go</button>
+                <button type="submit" [disabled]="!formData.valid">Done</button>
             </footer>
         </div>
     </div>
