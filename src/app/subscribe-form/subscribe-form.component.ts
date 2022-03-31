@@ -10,6 +10,7 @@ import { MailchimpService } from '../services/mailchimp.service';
 })
 export class SubscribeFormComponent implements OnInit {
     formData: FormGroup;
+    formSubmitted: boolean;
 
     constructor(private api: FlotiqService,
                 private builder: FormBuilder) {
@@ -17,7 +18,6 @@ export class SubscribeFormComponent implements OnInit {
 
     ngOnInit(): void {
         this.formData = this.builder.group({
-            name: new FormControl('', [Validators.required]),
             email: new FormControl('', [Validators.compose([Validators.required, Validators.email])]),
         });
     }
@@ -25,5 +25,6 @@ export class SubscribeFormComponent implements OnInit {
     public async onSubmit(formData): Promise<void> {
         await this.api.subscribeUser(formData.name, formData.email);
         this.formData.reset();
+        this.formSubmitted = true;
     }
 }

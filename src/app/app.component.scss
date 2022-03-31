@@ -1,3 +1,5 @@
+@import "~animate.css/animate.min.css";
+
 :host {
   .image-carousel__container {
     display: flex;
@@ -22,6 +24,22 @@
     }
   }
 
+  .scroll-arrow {
+    color: white;
+    font-size: 4rem;
+    opacity: 0.7;
+    display: block;
+    position: relative;
+    bottom: 35px;
+    /* margin: 0 auto; */
+    text-align: center;
+
+    &:hover {
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
   footer {
     display: flex;
     height: 140px;
@@ -39,17 +57,6 @@
 
         &:hover {
           opacity: 0.7;
-        }
-      }
-
-      .scroll-arrow {
-        color: black;
-        font-size: 4rem;
-        opacity: 0.7;
-
-        &:hover {
-          opacity: 1;
-          cursor: pointer;
         }
       }
     }
