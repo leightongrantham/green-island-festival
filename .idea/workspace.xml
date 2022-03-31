@@ -2,8 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="470b3d2e-9207-42ff-8989-90bd3b5af9cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../cold-north-agency/src/app/interfaces/artist.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cold-north-agency/src/app/services/contentful.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/videos/VIDEO-2022-03-17-18-25-42.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cold-north-agency/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../cold-north-agency/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cold-north-agency/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../cold-north-agency/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cold-north-agency/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../cold-north-agency/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cold-north-agency/src/app/components/artist-tiles/artist-tiles.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cold-north-agency/src/app/components/artist-tiles/artist-tiles.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cold-north-agency/src/app/components/artist-tiles/artist-tiles.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../cold-north-agency/src/app/components/artist-tiles/artist-tiles.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cold-north-agency/src/app/components/artists/artists.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cold-north-agency/src/app/components/artists/artists.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cold-north-agency/src/app/components/artists/artists.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../cold-north-agency/src/app/components/artists/artists.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cold-north-agency/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../cold-north-agency/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/green-island-festival3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/green-island-festival3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/image-carousel/image-carousel.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/image-carousel/image-carousel.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/image-carousel/image-carousel.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/image-carousel/image-carousel.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/subscribe-form/subscribe-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/subscribe-form/subscribe-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/subscribe-form/subscribe-form.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/subscribe-form/subscribe-form.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +34,16 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="EditorConfigPreviewManager">
+    <editorConfig file="$PROJECT_DIR$/../cold-north-agency/.editorconfig" previewFile="$PROJECT_DIR$/../cold-north-agency/src/app/app.component.ts" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,12 +66,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/node_modules/protractor" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="swagger" />
+    <property name="settings.editor.selected.configurable" value="copyright.filetypes.TypeScript JSX" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -49,11 +81,11 @@
       <recent name="$PROJECT_DIR$/../next.js/examples/cms-contentful" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/app/services" />
       <recent name="$PROJECT_DIR$/src/assets/videos" />
       <recent name="$PROJECT_DIR$/src/assets" />
-      <recent name="$PROJECT_DIR$/src/app/image-carousel" />
-      <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="$PROJECT_DIR$/../cold-north-agency/src/assets" />
+      <recent name="$PROJECT_DIR$/../cold-north-agency/src/styling" />
+      <recent name="$PROJECT_DIR$/../cold-north-agency" />
     </key>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
@@ -107,7 +139,9 @@
       <workItem from="1643195846126" duration="2771000" />
       <workItem from="1643711592272" duration="3807000" />
       <workItem from="1644500330658" duration="5143000" />
-      <workItem from="1644568794808" duration="861000" />
+      <workItem from="1644568794808" duration="1359000" />
+      <workItem from="1644934252039" duration="28835000" />
+      <workItem from="1648559694466" duration="6835000" />
     </task>
     <servers />
   </component>

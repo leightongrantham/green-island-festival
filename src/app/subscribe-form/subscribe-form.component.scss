@@ -2,18 +2,16 @@
   display: flex;
   justify-content: center;
   color: white;
+  position: relative;
 
-  .container {
-    z-index: 100;
-    width: 400px;
-    height: 500px;
+  .subscribe-form {
+    padding: 55px;
+    //width: 755px;
+    //height: 200px;
     box-shadow: 0 0 15px 0 #000;
-    border-radius: 10px;
-    justify-content: center;
-    margin-top: 15%;
+    margin: 25px 0 100px 0;
     align-items: center;
-    display: flex;
-    background: rgba(56, 116, 28, 0.9);
+    background: rgba(56, 116, 28, 1);
   }
 
   h2 {

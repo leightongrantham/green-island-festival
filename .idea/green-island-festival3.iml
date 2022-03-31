@@ -11,5 +11,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="next.js" />
     <orderEntry type="module" module-name="blog-in-5-minutes" />
+    <orderEntry type="module" module-name="coldnorthagency" />
   </component>
 </module>

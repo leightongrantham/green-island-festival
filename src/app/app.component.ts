@@ -65,6 +65,8 @@ export class AppComponent implements OnInit {
         this.flotiq.getUser().subscribe(
             (user) => {
                 const { data } = user;
+
+                console.log(data);
                 // do something with data
             }
         );
