@@ -13,6 +13,8 @@
       <change beforePath="$PROJECT_DIR$/../cold-north-agency/src/app/components/artists/artists.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../cold-north-agency/src/app/components/artists/artists.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cold-north-agency/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../cold-north-agency/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/subscribe-form/subscribe-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/subscribe-form/subscribe-form.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +130,7 @@
       <workItem from="1644500330658" duration="5143000" />
       <workItem from="1644568794808" duration="1359000" />
       <workItem from="1644934252039" duration="28835000" />
-      <workItem from="1648559694466" duration="15479000" />
+      <workItem from="1648559694466" duration="16103000" />
     </task>
     <servers />
   </component>
