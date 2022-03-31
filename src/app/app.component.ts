@@ -66,7 +66,7 @@ export class AppComponent implements OnInit {
             (user) => {
                 const { data } = user;
 
-                console.log(data);
+                // console.log(data);
                 // do something with data
             }
         );

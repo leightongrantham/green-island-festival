@@ -28,7 +28,7 @@ export class FlotiqService {
             fields, { headers: this.httpHeaders })
             .toPromise().then(response => {
                 console.log(response);
-        });
+        }).catch((error => console.log(error)));
     }
 
 
