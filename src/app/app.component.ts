@@ -34,19 +34,19 @@ export class AppComponent implements OnInit {
 	slides: Slide[] = [
 		{
 			src:
-				'assets/images/SLN01039-132.jpg'
+				'https://green-island-festival.s3.amazonaws.com/images/SLN01039-132.jpg'
 		},
 		{
 			src:
-				'assets/images/SLN01141-210.jpg'
+				'https://green-island-festival.s3.amazonaws.com/images/SLN01141-210.jpg'
 		},
 		{
 			src:
-				'assets/images/SLN01174-23.jpg'
+				'https://green-island-festival.s3.amazonaws.com/images/SLN01174-23.jpg'
 		},
 		{
 			src:
-				'assets/images/SLN01974.JPG'
+				'https://green-island-festival.s3.amazonaws.com/images/SLN01974.JPG'
 		}
 	];
 
