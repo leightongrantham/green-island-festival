@@ -8,80 +8,84 @@ import { faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
-	selector: 'app-root',
-	templateUrl: './app.component.html',
-	styleUrls: ['./app.component.scss']
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-	@ViewChild(ImageCarouselComponent) carousel: ImageCarouselComponent;
+    @ViewChild(ImageCarouselComponent) carousel: ImageCarouselComponent;
 
-	title = 'Green Island Festival';
-	isHome = false;
-	toggleNav = false;
-	date = (new Date()).getFullYear();
-	animationType = AnimationType.Fade;
-	faInstagram = faInstagram;
-	faFacebook = faFacebook;
-	faArrow = faArrowDown;
+    title = 'Green Island Festival';
+    isHome = false;
+    toggleNav = false;
+    date = (new Date()).getFullYear();
+    animationType = AnimationType.Fade;
+    faInstagram = faInstagram;
+    faFacebook = faFacebook;
+    faArrow = faArrowDown;
 
-	animationTypes = [
-		{
-			name: 'Fade',
-			value: AnimationType.Fade
-		},
-	];
+    animationTypes = [
+        {
+            name: 'Fade',
+            value: AnimationType.Fade
+        },
+    ];
 
-	slides: Slide[] = [
-		{
-			src:
-				'https://green-island-festival.s3.amazonaws.com/images/SLN01039-132.jpg'
-		},
-		{
-			src:
-				'https://green-island-festival.s3.amazonaws.com/images/SLN01141-210.jpg'
-		},
-		{
-			src:
-				'https://green-island-festival.s3.amazonaws.com/images/SLN01174-23.jpg'
-		},
-		{
-			src:
-				'https://green-island-festival.s3.amazonaws.com/images/SLN01974.JPG'
-		}
-	];
+    slides: Slide[] = [
+        {
+            src:
+                'https://green-island-festival.s3.amazonaws.com/images/PHOTO-2022-04-06-14-16-11.jpg'
+        },
+        {
+            src:
+                'https://green-island-festival.s3.amazonaws.com/images/SLN01039-132.jpg'
+        },
+        {
+            src:
+                'https://green-island-festival.s3.amazonaws.com/images/SLN01141-210.jpg'
+        },
+        {
+            src:
+                'https://green-island-festival.s3.amazonaws.com/images/SLN01174-23.jpg'
+        },
+        {
+            src:
+                'https://green-island-festival.s3.amazonaws.com/images/SLN01974.JPG'
+        }
+    ];
 
-	setToggleNav = () => {
-		this.toggleNav = !this.toggleNav;
-	};
+    setToggleNav = () => {
+        this.toggleNav = !this.toggleNav;
+    }
 
-	constructor(private location: Location, private flotiq: FlotiqService) {
-	}
+    constructor(private location: Location, private flotiq: FlotiqService) {
+    }
 
-	ngOnInit(): void {
-		if (!this.location.path()) {
-			this.isHome = true;
-		}
+    ngOnInit(): void {
+        if (!this.location.path()) {
+            this.isHome = true;
+        }
 
-		this.flotiq.getUser().subscribe(
-			(user) => {
-				const {data} = user;
+        this.flotiq.getUser().subscribe(
+            (user) => {
+                const {data} = user;
 
-				// console.log(data);
-				// do something with data
-			}
-		);
-	}
+                // console.log(data);
+                // do something with data
+            }
+        );
+    }
 
-	setAnimationType(type: any): void {
-		this.animationType = type.value;
-		setTimeout(() => {
-			this.carousel.onNextClick();
-		});
-	}
+    setAnimationType(type: any): void {
+        this.animationType = type.value;
+        setTimeout(() => {
+            this.carousel.onNextClick();
+        });
+    }
 
-	scrollIntoView(id: string): void {
-		const element = document.getElementById(id);
+    scrollIntoView(id: string): void {
+        const element = document.getElementById(id);
 
-		element.scrollIntoView({behavior: 'smooth'});
-	}
+        element.scrollIntoView({behavior: 'smooth'});
+    }
 }
