@@ -13,8 +13,7 @@
       <change beforePath="$PROJECT_DIR$/../cold-north-agency/src/app/components/artists/artists.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../cold-north-agency/src/app/components/artists/artists.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cold-north-agency/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../cold-north-agency/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/flotiq.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/flotiq.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/subscribe-form/subscribe-form.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/subscribe-form/subscribe-form.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/subscribe-form/subscribe-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/subscribe-form/subscribe-form.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="21KOkJJ5IFw98LKCNxUafbF0jL8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -60,7 +62,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/node_modules/protractor" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="copyright.filetypes.TypeScript JSX" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -130,7 +132,8 @@
       <workItem from="1644500330658" duration="5143000" />
       <workItem from="1644568794808" duration="1359000" />
       <workItem from="1644934252039" duration="28835000" />
-      <workItem from="1648559694466" duration="16628000" />
+      <workItem from="1648559694466" duration="17013000" />
+      <workItem from="1649180855753" duration="1667000" />
     </task>
     <servers />
   </component>
@@ -180,7 +183,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
