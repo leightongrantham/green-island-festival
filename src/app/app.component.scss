@@ -1,11 +1,16 @@
 :host {
   .image-carousel__container {
-    height: 250px;
+    display: flex;
+    align-items: center;
+  }
+
+  button {
+    position: absolute;
+    z-index: 1000;
+    background: black;
   }
 
   .aftermovie__container {
-    margin-top: 250px;
-
     .aftermovie__title {
       text-align: center;
     }
@@ -14,6 +19,44 @@
       display: flex;
 
       justify-content: center;
+    }
+  }
+
+  .scroll-arrow {
+    color: white;
+    font-size: 4rem;
+    opacity: 0.7;
+    display: block;
+    position: relative;
+    bottom: 35px;
+    /* margin: 0 auto; */
+    text-align: center;
+
+    &:hover {
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+  footer {
+    display: flex;
+    height: 140px;
+    justify-content: center;
+    align-items: center;
+
+    .social-links__container {
+      display: inline-block;
+      justify-content: center;
+
+      .social-links a {
+        margin: 0 15px 0 15px;
+        text-decoration: none;
+        //opacity: 0.7;
+
+        &:hover {
+          opacity: 0.7;
+        }
+      }
     }
   }
 }

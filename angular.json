@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "scully-projects-starter": {
+    "green-island-festival": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/scully-projects-starter",
+            "outputPath": "dist/green-island-festival",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -28,7 +28,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/animate.css/animate.css"
             ],
             "scripts": []
           },
@@ -65,18 +66,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "scully-projects-starter:build"
+            "browserTarget": "green-island-festival:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "scully-projects-starter:build:production"
+              "browserTarget": "green-island-festival:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "scully-projects-starter:build"
+            "browserTarget": "green-island-festival:build"
           }
         },
         "test": {
@@ -113,16 +114,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "scully-projects-starter:serve"
+            "devServerTarget": "green-island-festival:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "scully-projects-starter:serve:production"
+              "devServerTarget": "green-island-festival:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "scully-projects-starter"
+  "defaultProject": "green-island-festival"
 }

@@ -1,8 +1,11 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import {Location} from '@angular/common';
+import { Location } from '@angular/common';
 import { ImageCarouselComponent } from './image-carousel/image-carousel.component';
 import { AnimationType } from './image-carousel/animations';
 import { Slide } from './interfaces/carousel.interface';
+import { FlotiqService } from './services/flotiq.service';
+import { faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
     selector: 'app-root',
@@ -17,6 +20,9 @@ export class AppComponent implements OnInit {
     toggleNav = false;
     date = (new Date()).getFullYear();
     animationType = AnimationType.Fade;
+    faInstagram = faInstagram;
+    faFacebook = faFacebook;
+    faArrow = faArrowDown;
 
     animationTypes = [
         {
@@ -28,19 +34,23 @@ export class AppComponent implements OnInit {
     slides: Slide[] = [
         {
             src:
-                'assets/images/SLN01039-132.jpg'
+                'https://green-island-festival.s3.amazonaws.com/images/PHOTO-2022-04-06-14-16-11.jpg'
         },
         {
             src:
-                'src/assets/images/SLN01141-210.jpg'
+                'https://green-island-festival.s3.amazonaws.com/images/SLN01039-132.jpg'
         },
         {
             src:
-                'src/assets/images/SLN01174-23.jpg'
+                'https://green-island-festival.s3.amazonaws.com/images/SLN01141-210.jpg'
         },
         {
             src:
-                'src/assets/images/SLN01974.JPG'
+                'https://green-island-festival.s3.amazonaws.com/images/SLN01174-23.jpg'
+        },
+        {
+            src:
+                'https://green-island-festival.s3.amazonaws.com/images/SLN01974.JPG'
         }
     ];
 
@@ -48,19 +58,34 @@ export class AppComponent implements OnInit {
         this.toggleNav = !this.toggleNav;
     }
 
-    constructor(private location: Location) {
+    constructor(private location: Location, private flotiq: FlotiqService) {
     }
 
     ngOnInit(): void {
         if (!this.location.path()) {
             this.isHome = true;
         }
+
+        this.flotiq.getUser().subscribe(
+            (user) => {
+                const {data} = user;
+
+                // console.log(data);
+                // do something with data
+            }
+        );
     }
 
-    setAnimationType(type): void {
+    setAnimationType(type: any): void {
         this.animationType = type.value;
         setTimeout(() => {
             this.carousel.onNextClick();
         });
+    }
+
+    scrollIntoView(id: string): void {
+        const element = document.getElementById(id);
+
+        element.scrollIntoView({behavior: 'smooth'});
     }
 }

@@ -1,0 +1,21 @@
+<form [formGroup]="formData" (ngSubmit)="onSubmit(formData.value)">
+    <div *ngIf="!formSubmitted" class="form-group">
+        <div class="content">
+            <header>
+                <h1>Sign up for presale tickets.</h1>
+            </header>
+            <footer>
+                <input id="email" type="email" class="form-control" name="email" aria-describedby="emailHelp"
+                       placeholder="Please enter your email" formControlName="email">
+                <button type="submit" [disabled]="!formData.valid">Done</button>
+            </footer>
+        </div>
+    </div>
+    <div *ngIf="formSubmitted" class="form-group animate__animated animate__fadeIn">
+        <div class="content">
+            <header>
+                <h1>Thank you for registering!</h1>
+            </header>
+        </div>
+    </div>
+</form>

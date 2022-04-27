@@ -2,7 +2,7 @@ import { ScullyConfig } from '@scullyio/scully';
 import { environment } from './src/environments/environment';
 export const config: ScullyConfig = {
   projectRoot: './src',
-  projectName: 'scully-projects-starter',
+  projectName: 'green-island-festival',
   outDir: './dist/static',
   routes: {
     '/project/:slug': {
